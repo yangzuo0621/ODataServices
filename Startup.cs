@@ -48,6 +48,7 @@ namespace CsvToolDb
 
             var builder = new ODataConventionModelBuilder(app.ApplicationServices);
             builder.EntitySet<Request>("Requests");
+            builder.EntitySet<Approval>("Approvals");
             
             app.UseMvc(routeBuilder =>
             {

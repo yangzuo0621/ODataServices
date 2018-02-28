@@ -6,6 +6,7 @@ namespace CsvToolDb.Models
     {
         public string Id { get; set; }
         public string Title { get; set; }
+        public string Brand { get; set; }
         public string Status { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? SubmittedDate { get; set; }

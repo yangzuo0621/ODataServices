@@ -9,5 +9,6 @@ namespace CsvToolDb.Models
         { }
 
         public DbSet<Request> Requests { get; set; }
+        public DbSet<Approval> Approvals { get; set; }
     }
 }
